@@ -22,7 +22,9 @@ height:npx; }
 
 .parallax-layer
   { position:absolute; }
-  
+```
+
+```js
 jQuery('.parallax-layer').parallax(options, layer_0_options, layer_1_options, ...);
 
 jQuery('.parallax-layer').parallax({}, {}, {xparallax: '200px'});
